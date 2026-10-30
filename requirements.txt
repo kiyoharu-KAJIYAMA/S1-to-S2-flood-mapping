@@ -1,0 +1,12 @@
+# Local analysis and figures (Python 3.10)
+numpy==1.26.4
+scipy==1.15.3
+matplotlib==3.10.1
+pandas==2.2.2
+rasterio==1.4.3
+scikit-learn
+tqdm
+# Google Earth Engine exports (scripts/01_download/gee_*.py)
+earthengine-api==1.7.36
+# Training and server evaluation (scripts/03_train, scripts/06_ablation, terra/)
+torch>=2.1
